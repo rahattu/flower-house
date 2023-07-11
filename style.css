@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* nav-bar section */
+.f-text{
+ font-size:x-large;
+ color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(5, 62, 85, 0.822);
+    height: 80px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 700;
+}
+
+/* banner section */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    padding: 50px 90px;
+    padding-bottom: 0px;
+}
+
+.banner-info {
+    text-align: left;
+    width: 100%;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.banner-decription {
+    margin-top: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.button{
+    border-radius: 10px;
+    background: #f72754;
+    padding: 15px 15px;
+    border: none;
+    color: hwb(11 91% 2%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+/* Feature Section */
+
+.feature-section{
+     margin: 100px;
+     text-align: center;
+
+}
+
+.feature-title{
+   
+    padding: 20x;
+    margin:20px
+
+}
+
+.title {
+    color: #181717;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.description {
+    color: rgba(59, 54, 54, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+
+.three-flower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.f1,.f2,.f3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.f1 img {
+    height: 320px;
+    width: 240px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 80px 60px 0px 60px;
+    margin-bottom: 30px;
+}
+
+.f2 img {
+    height: 280px;
+    width: 240px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(6, 183, 192, 0.24);
+    padding: 80px 60px 40px 60px;
+    margin-bottom: 30px;
+}
+
+.f3 img {
+    height: 320px;
+    width: 240px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 80px 60px 0px 60px;
+    margin-bottom: 30px;
+}
+
+.text1,.text2,.text3{
+    padding: 10px;
+    
+}
+
+.support-section{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    background: rgba(190, 172, 172, 0.788);
+    margin: 0px -60px;
+    text-align: center;
+    padding: 70px 110px;
+    gap: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+}
+
+.flower-box img {
+    margin-bottom: 20px;
+}
+
+/* Offer Section */
+
+
+.offer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+   
+    height: 70vh;
+    border-radius: 8px;
+    background: rgba(209, 115, 134, 0.219);
+    margin-bottom: 150px;
+    padding:40px;
+ 
+}
+
+.offer-text {
+    text-align: center;
+    width: 50%;
+}
+
+.offer-text h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.off-text {
+    color: #E55473;
+}
+
+.offer-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+/* Instagram Section */
+
+
+.insta-title {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 120px;
+    margin-bottom: 125px;
+}
+
+.insta img {
+    height: 300px;
+    width: 290px;
+}
+/* Blog Section */
+
+.buy-section{
+    text-align: center;
+    width: 84%;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.buy-container{ 
+    margin-top: 25px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buy{
+    width: 30%;
+    text-align: left;
+}
+
+.buy img, h3, h4, p, a{
+    margin-bottom: 10px;
+}
+
+/* Latest Deals Section */
+
+.deal {
+    height: 400px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-bottom: 125px;
+    padding-left: 200px;
+}
+
+.deal-info {
+    text-align: center;
+    gap:13px;
+    width: 80%;
+    /* margin: auto; */
+}
+
+.input-email {
+    width: 500px;
+    height: 62px;
+    border-radius: 15px;
+    background: #FFF;
+    border: none;
+    padding-left:100px;
+}
+
+.input-field{
+    display: flex;
+    text-align: center;
+   padding-left:150px;
+}
+
+/* Footer Section */
+
+footer{
+    background: #111010;   
+}
+
+.footer{
+    color: #FFF;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 100px;
+}
+
+.footer h1{
+    color: #FFF;
+}
+
+.footer p{
+    color: #FFF;
+}
+
+.flower-span{
+    color:#f54067;
+}
